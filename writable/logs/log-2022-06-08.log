@@ -1,0 +1,337 @@
+CRITICAL - 2022-06-08 03:36:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 03:37:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 03:39:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 03:40:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 03:50:46 --> Class "App\Models\Datadiri" not found
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Pages->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 08:29:01 --> Class "App\Models\Datadiri" not found
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Pages->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 08:55:35 --> Undefined array key "nohp"
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 08:57:46 --> Undefined array key "sd"
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 09:10:12 --> Undefined array key "HTML (Expert)"
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 09:11:47 --> Undefined array key "HTML (Expert)"
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 09:36:46 --> Undefined array key "HTML (Expert)"
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 09:37:40 --> Undefined array key "HTML (Expert)"
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 11:26:46 --> Undefined variable $title
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 11:27:51 --> Undefined variable $title
+#0 C:\xampp\htdocs\myproject\app\Views\cv.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): view('cv', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-08 11:44:20 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 11:44:58 --> Class "BaseController" not found
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 11:45:22 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 11:45:37 --> Undefined property: App\Controllers\Product::$load
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:49:01 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 11:49:11 --> Undefined property: App\Controllers\Product::$data
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:49:35 --> Undefined property: App\Controllers\Product::$data
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:50:33 --> Class "App\Controllers\product_model" not found
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 11:51:39 --> Class "CI_Model" not found
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\prod...')
+#3 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\prod...')
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 11:52:40 --> Undefined property: App\Controllers\Product::$product_model
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-08 11:52:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myproject\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myproject\system\Model.php(196): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#3 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 13:15:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myproject\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myproject\system\Model.php(196): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#3 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-08 13:19:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myproject\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myproject\system\Model.php(196): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#3 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-08 14:01:05 --> Table 'ci4.product' doesn't exist
+CRITICAL - 2022-06-08 14:01:05 --> Table 'ci4.product' doesn't exist
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-08 14:01:27 --> Table 'ci4.product' doesn't exist
+CRITICAL - 2022-06-08 14:01:27 --> Table 'ci4.product' doesn't exist
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-08 14:02:44 --> Table 'ci4.product' doesn't exist
+CRITICAL - 2022-06-08 14:02:44 --> Table 'ci4.product' doesn't exist
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-06-08 14:05:58 --> Table 'ci4.product' doesn't exist
+CRITICAL - 2022-06-08 14:05:58 --> Table 'ci4.product' doesn't exist
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

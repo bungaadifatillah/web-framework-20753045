@@ -1,0 +1,424 @@
+CRITICAL - 2022-06-11 01:10:29 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 01:11:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 01:12:20 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\myproject\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\myproject\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\myproject\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): CodeIgniter\BaseModel->findAll()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-11 01:17:58 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 01:21:23 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 02:59:13 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 02:59:25 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 02:59:27 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:00:01 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:00:51 --> Declaration of App\Models\Product_model::save($product_name, $product_price) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:01:39 --> syntax error, unexpected single-quoted string "product_name", expecting variable
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:01:52 --> Declaration of App\Models\Product_model::save($product_name, $product_price) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:02:55 --> Declaration of App\Models\Product_model::save($product_name, $product_price) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:34:02 --> Declaration of App\Models\Product_model::save($product_name, $product_price) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:34:41 --> syntax error, unexpected single-quoted string "product", expecting variable
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:35:20 --> syntax error, unexpected single-quoted string "$product_", expecting variable
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:35:28 --> syntax error, unexpected single-quoted string "$product", expecting variable
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:37:08 --> syntax error, unexpected single-quoted string "$data", expecting variable
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:37:18 --> syntax error, unexpected identifier "_name", expecting ")"
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:37:44 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:39:58 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:40:25 --> Declaration of App\Models\Product_model::save($product_name, $product_price) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:40:34 --> syntax error, unexpected single-quoted string "$product_name, $product_price", expecting variable
+#0 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\myproject\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Prod...')
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Prod...')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 03:50:14 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:50:50 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 03:54:11 --> Undefined property: App\Controllers\Product::$load
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->add_new()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 03:58:56 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->save()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 04:00:39 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->save()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 04:02:00 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->save()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 04:04:08 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->saveProduct()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 04:04:25 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->saveProduct()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 05:29:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(18): App\Models\Product_model->saveProduct(Array)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->saveProduct()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 05:30:16 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 05:33:49 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 05:33:59 --> Declaration of App\Models\Product_model::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-11 05:53:14 --> Undefined variable $row
+#0 C:\xampp\htdocs\myproject\app\Views\Product_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 05:53:30 --> Attempt to read property "product_name" on array
+#0 C:\xampp\htdocs\myproject\app\Views\Product_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 05:54:10 --> Attempt to read property "product_name" on array
+#0 C:\xampp\htdocs\myproject\app\Views\Product_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 05:58:53 --> Attempt to read property "product_name" on array
+#0 C:\xampp\htdocs\myproject\app\Views\Product_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 06:02:10 --> syntax error, unexpected single-quoted string "product_name", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#2 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-11 06:02:49 --> Attempt to read property "product_id" on array
+#0 C:\xampp\htdocs\myproject\app\Views\Product_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 06:21:29 --> Undefined variable $row
+#0 C:\xampp\htdocs\myproject\app\Views\Product_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\myproject\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myproject\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('Product_view', Array, true)
+#4 C:\xampp\htdocs\myproject\app\Controllers\Product.php(9): view('Product_view', Array)
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-11 06:32:43 --> Undefined property: App\Controllers\Product::$uri
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->get_edit('5')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:44:26 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->get_edit('5')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:44:42 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->get_edit('5')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:45:44 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->get_edit('5')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:47:06 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->get_edit('5')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:47:28 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->get_edit('5')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:52:58 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->update()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:53:44 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->update()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:54:16 --> Undefined property: App\Controllers\Product::$input
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->update()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:58:59 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->update()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-11 07:59:21 --> Undefined property: App\Controllers\Product::$productModel
+#0 C:\xampp\htdocs\myproject\app\Controllers\Product.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Product->update()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-06-11 08:00:53 --> Table 'pos_db.datadiri' doesn't exist
+CRITICAL - 2022-06-11 08:00:53 --> Table 'pos_db.datadiri' doesn't exist
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(9): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

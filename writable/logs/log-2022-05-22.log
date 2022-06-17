@@ -1,0 +1,54 @@
+CRITICAL - 2022-05-22 05:11:48 --> Class "App\Controllers\CI_Controller" not found
+#0 C:\xampp\htdocs\myproject\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\myproject\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('blog')
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('blog')
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-22 05:12:37 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Blog->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 05:12:38 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Blog->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 05:13:53 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Blog->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 05:13:54 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Blog->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 05:14:07 --> Cannot call constructor
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(809): App\Controllers\Blog->__construct()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-22 05:49:15 --> Invalid file: cv_bunga.php
+#0 C:\xampp\htdocs\myproject\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cv_bunga.php')
+#1 C:\xampp\htdocs\myproject\system\Common.php(1089): CodeIgniter\View\View->render('cv_bunga', Array, true)
+#2 C:\xampp\htdocs\myproject\app\Controllers\Pages.php(6): view('cv_bunga', Array)
+#3 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

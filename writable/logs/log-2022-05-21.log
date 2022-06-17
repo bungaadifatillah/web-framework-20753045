@@ -1,0 +1,13 @@
+CRITICAL - 2022-05-21 10:00:41 --> Call to undefined function App\Controllers\Controllers()
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myproject\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-21 10:05:01 --> Call to undefined function App\Controllers\Controllers()
+#0 C:\xampp\htdocs\myproject\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\myproject\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\myproject\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myproject\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
